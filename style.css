@@ -97,9 +97,13 @@ a {
 
 .info {
     display: flex;
-    gap: 25px;
+    gap: 50px;
     text-align: center;
 
+}
+
+.info p {
+    max-width: 160px;
 }
 
 .info img {
@@ -130,4 +134,23 @@ a {
 
 
 
+.action {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 50px;
+    justify-content: space-between;
+    padding: 45px 60px;
+    align-items: center;
+    border-radius: 10px;
+}
 
+.action button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    border-radius: 15px;
+    border-width: 2px;
+
+    padding: 15px;
+}
