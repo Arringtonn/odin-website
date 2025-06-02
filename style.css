@@ -76,3 +76,26 @@ a {
     color: #F9FAF8;
     font-weight: 900;
 }
+
+
+
+
+.info-hub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 150px;
+}
+
+.info {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+
+}
+
+.info img {
+    border-radius: 15px;
+}
